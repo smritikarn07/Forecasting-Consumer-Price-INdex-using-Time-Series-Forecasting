@@ -52,7 +52,7 @@ In the project, we have tried to answer all these questions.
 * In the 70s, the US economy experienced high inflation. The clustering of low inflation values from 1980-1999 may correspond to the recession of the 1980s, following aggressive interest rate hikes by the Fed in response to the high inflation in the 70s. **Great Depression.**
 * Similarly the **Great Recession** in 2008-2009 had a similar impact on US economy
 
-  ## Conclusion
+## Conclusion
   From this exercise, we have learned that there's a fundamental difference between prediction/fit and forecasting. 
 * The project provides us with a clear idea about the existing cointegration between the macroeconomic variables.
 * While the historical prediction of a model might be very good and training the model on a test dataset might yield high MSEs, forecasting with those same features is tricky. 
