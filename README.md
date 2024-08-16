@@ -1,12 +1,10 @@
 # Forecasting-Consumer-Price-Index-using-Time-Series-Forecasting
 
 ## Motivation
-Out of curiosity, I wanted to see whether the **unemployment rate**, **real personal income**, **Fed Funds rate** and **stock price index** have any historical relationship with inflation. 
+I wanted to see whether the **unemployment rate**, **real personal income**, **Fed Funds rate** and **stock price index** have any historical relationship with inflation. 
 
 Economists often refer to the Phillips Curve, showing a trade-off between inflation and **unemployment**. Looking at the data we have plotted below, the trade-off holds true? 
-
 Do stock markets have any predictive power for inflation? **S&P500** is used as Composite index to derive its relationship with inflation.
-
 The Fed Reserve lowers inflation by raising interest rates. Is the **Fed Funds rate** useful for prediction?
 
 In the project, we have tried to answer all these questions.
