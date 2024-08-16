@@ -51,3 +51,18 @@ In the project, we have tried to answer all these questions.
 **Explanation for Outliers:** Outliers may be explained by trends across 1970 and 1980. 
 * In the 70s, the US economy experienced high inflation. The clustering of low inflation values from 1980-1999 may correspond to the recession of the 1980s, following aggressive interest rate hikes by the Fed in response to the high inflation in the 70s. **Great Depression.**
 * Similarly the **Great Recession** in 2008-2009 had a similar impact on US economy
+
+  ## Conclusion
+  From this exercise, we have learned that there's a fundamental difference between prediction/fit and forecasting. 
+* The project provides us with a clear idea about the existing cointegration between the macroeconomic variables.
+* While the historical prediction of a model might be very good and training the model on a test dataset might yield high MSEs, forecasting with those same features is tricky. 
+* Since variables in VAR interact endogenously with each other, there's much uncertainty with how the selected features will trend over time. Thus the use of VECM helps forecast.
+* When it comes to forecasting, one needs to decide which variables are the most important and not just rely solely on fit. 
+* To be precise Vector Error Correction Model yields phenomenal results due to the presence of cointegration.
+
+A summary of the MSEs between actual and forecasted values for each approach is provided below. 
+After this exercise, I find that the VAR model works really well, however VECM is more suited for tackling the problem. 
+
+## Scope of Further Work
+* In terms of policy implications, there is still value in looking to economic theory (such as the **Phillips Curve**) to assist in forecasting.
+* The variables used in the model are significantly correlated and the results are quite pleasing, however this also signifies that there must exist more cointegrated variables.
